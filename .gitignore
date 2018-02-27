@@ -1,0 +1,46 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+.classpath
+.settings/
+.settings/*
+bin/
+hs_err_pid*
+/target/
+*/target/*
+/bin/
+
+hs_err_pid*
+target
+
+# ignore eclipse files
+.settings
+*/.settings
+.metadata
+
+/webapp/WEB-INF/classes/
+/webapp/WEB-INF/target/
+/target/*
+/src/main/webapp/WEB-INF/classes/*
+
+
+.idea/  
+  
+## File-based project format:  
+*.iws  
+*.iml  
+*.ipr  
+  
+## Plugin-specific files:  
+  
+# IntelliJ  
+/out/  
+  
+# mpeltonen/sbt-idea plugin  
+.idea_modules/  
